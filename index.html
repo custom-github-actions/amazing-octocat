@@ -61,6 +61,58 @@
     }
     
     // Other CSS rules go here...
+
+        <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Octocat Source Example</title>
+    <style>
+        /* Set the background color to a dark gray */
+        body {
+            background-color: #2d2d2d;
+            color: #fff;
+        }
+
+        /* Define fallback font families for browsers without support for Consolas */
+        @font-face {
+            font-family: 'Consolas';
+            font-style: normal;
+            font-weight: 400;
+            src: local('Consolas'), url(https://fonts.gstatic.com/s/consolas/v17/wght.ttf) format('truetype');
+        }
+
+        /* Define fallback font families for browsers without support for Arial */
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Consolas', monospace;
+        }
+
+        .source {
+            font-size: 1.2rem;
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .highlight {
+            background-color: #333;
+            padding: 0.2em 0.4em;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <h2>Octocat Source</h2>
+    <div class="source">
+        <span class="highlight"><?xml version="1.0"?&gt;</span>
+
+        <span class="highlight"><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"&gt;</span>
+
+        <span class="highlight"><svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48"&gt;</span>
+
+        <!-- More SVG code omitted for brevity -->
+    </div>
+</body>
+</html>
   </style&gt;
 </body&gt;</code></pre>
 </body>
